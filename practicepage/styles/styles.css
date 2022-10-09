@@ -1,0 +1,71 @@
+img {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center; 
+    color: white;
+    margin: 35px auto;
+}
+
+h2 {
+    text-align: center;
+    margin: 25px auto;
+    font-size: 16px;
+    color: white;
+    
+}
+
+h3 {
+    text-align: center;
+    margin: 05px auto;
+    color: white;
+}
+
+h4 {
+    text-align: center;
+    width: 65%;
+    font-size: 30px;
+    margin: 55px auto;
+    color: white;
+}
+
+nav, footer {
+    text-align: center;
+}
+
+main p {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: large;
+}
+
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 20px;
+
+}
+
+footer p {
+    font-size: 18px;
+    margin: 10px auto;
+}
+
+nav, footer {
+    background-color: pink;
+    color: black;
+    padding: 375px;
+
+}
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+body {
+    background-color: pink;
+}
