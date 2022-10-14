@@ -3,13 +3,26 @@
 
 :root {
 
---heading-font: "Caveat Brush";
+--heading-font: 'Caveat Brush';
 --paragraph-font: Quicksand, Helvetica, sans-serif;
 --body-font: Quicksand, Helvetica, sans-serif;
---font-family: 'Quicksand', 'Helvetica,' sans-serif:
+
 
 
 }
+
+.home-title {
+    font-family: 'Caveat Brush', Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h1 {
+    font-family: 'Caveat Brush', Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+.book
     
 content {
     max-width: 1600px;
@@ -27,6 +40,7 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1 {
@@ -45,12 +59,24 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
 }
 
 body {
     background-color: #92D1C3;
+    font-family: Quicksand, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -67,6 +93,10 @@ nav a:hover {
     background-color: #8BB8A8;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -86,6 +116,8 @@ nav a:hover {
 .msg {
     background-color: #FFD5FF;
     color: white;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -94,11 +126,15 @@ nav a:hover {
 
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #FDF5BF;
     color: #B47EB3;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -114,6 +150,10 @@ footer a:hover {
     text-decoration: none;
 }
 
+footer.social img {
+    padding-top: 15px;
+}
+
 .home-title {
     color: white;
 }
@@ -121,6 +161,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -131,4 +172,14 @@ footer a:hover {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
