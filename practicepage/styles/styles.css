@@ -1,13 +1,14 @@
 img {
-    width: 15%;
+    width: 100%;
     display: block;
     margin: 0 auto;
+
 }
 
 h1 {
     text-align: center; 
     color: white;
-    margin: 35px auto;
+    margin: 50px 0;
 }
 
 h2 {
@@ -32,8 +33,15 @@ h4 {
     color: white;
 }
 
-nav, footer {
+nav {
+    background-color: steelblue;
+    padding: 25px;
     text-align: center;
+}
+
+a {
+    color: white;
+    padding: 25px;
 }
 
 main p {
@@ -43,29 +51,27 @@ main p {
     font-size: large;
 }
 
-nav, footer {
-    background-color: steelblue;
-    color: white;
-    padding: 20px;
-
-}
-
 footer p {
     font-size: 18px;
     margin: 10px auto;
+    text-align: center;
 }
 
 nav, footer {
-    background-color: pink;
-    color: black;
-    padding: 375px;
+
+    color: white;
+    padding: 25px;
+    width: fit-content;
+    display: block;
 
 }
+
 a:hover {
     background-color: white;
     color: steelblue;
 }
 
 body {
-    background-color: pink;
+    background-color: darkgray;
+    margin: 0;
 }

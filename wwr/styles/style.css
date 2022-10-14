@@ -1,3 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Quicksand:wght@300&display=swap');
+
+:root {
+
+--heading-font: "Caveat Brush";
+--paragraph-font: Quicksand, Helvetica, sans-serif;
+--body-font: Quicksand, Helvetica, sans-serif;
+--font-family: 'Quicksand', 'Helvetica,' sans-serif:
+
+
+}
+    
 content {
     max-width: 1600px;
 }
@@ -117,3 +130,5 @@ footer a:hover {
 .logo {
     width: 80px;
 }
+
+
